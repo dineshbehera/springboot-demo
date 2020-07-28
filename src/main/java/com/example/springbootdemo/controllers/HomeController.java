@@ -12,7 +12,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String home() {
-		return "Spring boot is working!"+ " Current date and time is"+new Date();
+		return "Version 2 : Spring boot is working !"+ " Current date and time is"+new Date();
 	}
 
 }
